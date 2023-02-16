@@ -1,0 +1,78 @@
+.student-main
+{
+    display: flex;
+    width:100%;
+    position: relative;
+
+}
+
+.dashboard-outer{
+    width:80%;
+    padding:20px;
+    margin:0px auto;
+}
+.dashboard-main
+{
+    width:100%;
+    margin:0px auto;
+    background-color: yellowgreen ;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+}
+.name-detail{
+    width:20%;
+}
+
+.detail-div{
+    width:60%;
+    background-color: red;
+}
+.details{
+    /* display: flex; */
+    justify-content:space-between;
+    align-items: center;
+}
+.details p {
+    width:40%;
+}
+.table-main{
+    /* display: flex; */
+    width:100%;
+    margin:auto;    
+}
+.table-main tr{
+    width:100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+    text-transform: capitalize;
+    border-radius: 5px ;
+    box-shadow:0px ;
+    transition: box-shadow 0.5s linear;
+
+}
+.table-main tr:hover{
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.table-main tr td{
+    width:30%;
+}
+.table-main tr th{
+    width:30%;
+}
+
+
+.cards {
+    /* overflow: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    list-style: none;
+    text-align: center;
+    /* overflow-x: scroll; */
+    /* scroll-snap-type: x mandatory; */
+  }
+  

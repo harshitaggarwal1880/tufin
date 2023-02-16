@@ -1,0 +1,20 @@
+.history_main{
+    /* display: flex;; */
+    width:100%;
+    padding:20px 0px;
+}
+.history_main tr{
+    width:100%;
+    background-color: red;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.history_main tr td{
+    width:33%;
+    text-align: center;
+    padding-top:5px;
+    text-transform: capitalize;
+} 

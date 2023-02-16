@@ -1,0 +1,32 @@
+.student-div{
+    width:90%;
+    margin:auto;
+    /* background-color: red; */
+}
+.student-div .img_div{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    /* background-color: red;   */
+    
+    /* position: relative; */
+
+}
+.student-div .img_div img
+{
+    /* position: absolute; */
+    /* background-color:blue; */
+    margin:auto;
+    width:inherit;
+    height:inherit;
+
+}
+
+.links_btn{
+    list-style: none;
+    display: flex;
+    margin:auto;
+    align-content:center;
+    max-width: fit-content;
+}
